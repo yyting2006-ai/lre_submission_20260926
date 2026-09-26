@@ -12,11 +12,12 @@ The public release repository is [yyting2006-ai/lre_submission_20260926](https:/
 - `cover_letter.pdf`: compiled cover letter.
 - `cover_letter.tex`: cover-letter source.
 - `fig_*.pdf`: manuscript figures.
+- `ExecKG_LRE_LaTeX_source_20260927.zip`: upload-ready LaTeX source archive with figures and embedded tables.
 - `supplement/`: reproducibility and release-safe supplementary package.
 - `ExecKG_LRE_supplement_20260926.zip`: upload-ready supplementary archive built from `supplement/`.
 - `LRE_revision_map.md`: claim contract and revision record.
 - `LRE_submission_checklist.md`: completed pre-upload checks.
-- `SHA256SUMS.txt`: hashes for the manuscript, cover letter, and supplementary archive.
+- `SHA256SUMS.txt`: hashes for the manuscript, cover letter, LaTeX source archive, and supplementary archive.
 
 ## Compile
 
