@@ -1,0 +1,97 @@
+{
+  "version": "v2.0",
+  "scope_definition": {
+    "authority_inventory": "official GF0025-2021 StandardGrammarPoint records",
+    "legacy_drafts": "unreviewed surface patterns; never counted as executable",
+    "experimental_labels": "candidate-level operational labels used in the frozen evaluation",
+    "runtime_bindings": "point-specific bindings within the 37-label experimental space"
+  },
+  "authority_inventory": {
+    "count": 572,
+    "denominator": 572,
+    "coverage": 1.0,
+    "unique_ids": 572,
+    "level_distribution": {
+      "1": 48,
+      "2": 81,
+      "3": 81,
+      "4": 76,
+      "5": 71,
+      "6": 67,
+      "7-9": 148
+    },
+    "page_anchor_status": {
+      "ocr_detected": 362,
+      "appendix_span_verified": 210
+    }
+  },
+  "legacy_drafts": {
+    "records": 572,
+    "draft_unreviewed": 474,
+    "not_available": 98,
+    "runtime_eligible": 0
+  },
+  "experimental_scope": {
+    "diagnostic_labels": 37,
+    "typed_rule_records": 144,
+    "point_specific_runtime_bindings": 16,
+    "binding_denominator": 37,
+    "binding_coverage_within_experimental_labels": 0.43243243243243246,
+    "official_inventory_crosswalk_denominator_not_assumed": true
+  },
+  "materialized_graph": {
+    "nodes": 28158,
+    "edges": 64046,
+    "node_type_counts": {
+      "AnnotationDecision": 9000,
+      "AuthoritySource": 10,
+      "CandidateInstance": 3000,
+      "ConsensusDecision": 3000,
+      "EvidenceAssessment": 3000,
+      "EvidenceConsensus": 1000,
+      "GrammarFamily": 8,
+      "GrammarPoint": 37,
+      "GrammarRule": 144,
+      "RuleReliability": 468,
+      "RuntimeRule": 1,
+      "SentenceGroup": 2557,
+      "SlotAssertion": 3960,
+      "SlotConsensus": 1320,
+      "SlotType": 29,
+      "StandardCategory": 12,
+      "StandardGrammarPoint": 572,
+      "StandardLevel": 7,
+      "StandardSubcategory": 33
+    },
+    "relation_counts": {
+      "ACTIVATES_RULE": 5781,
+      "ANNOTATED_AS": 9000,
+      "ASSESSED_BY": 3000,
+      "BELONGS_TO_FAMILY": 37,
+      "BELONGS_TO_STANDARD_CATEGORY": 572,
+      "BELONGS_TO_STANDARD_SUBCATEGORY": 572,
+      "CANDIDATE_OF": 3000,
+      "CITES": 772,
+      "CONTRIBUTES_TO": 15960,
+      "DEFINED_BY": 572,
+      "DERIVED_FROM": 3000,
+      "GOVERNED_BY": 144,
+      "HAS_CONSENSUS": 3000,
+      "HAS_EVIDENCE_CONSENSUS": 1000,
+      "HAS_SLOT_ASSERTION": 3960,
+      "HAS_SLOT_CONSENSUS": 1320,
+      "HAS_TRAIN_RELIABILITY": 468,
+      "INSTANCE_OF_SLOT": 5280,
+      "IN_FAMILY": 3000,
+      "IN_STANDARD_LEVEL": 572,
+      "OCCURS_IN": 3000,
+      "SUBCATEGORY_OF": 36
+    }
+  },
+  "integrity": {
+    "authority_inventory_complete": true,
+    "drafts_do_not_claim_runtime": true,
+    "experimental_and_official_spaces_separated": true,
+    "graph_integrity_pass": true
+  }
+}

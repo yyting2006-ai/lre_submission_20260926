@@ -1,0 +1,45 @@
+{
+  "model": "hfl/chinese-macbert-base",
+  "torch": "2.13.0",
+  "transformers": "4.57.6",
+  "python": "3.12.13",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "device": "mps",
+  "config": {
+    "seeds": [
+      13,
+      42,
+      2027
+    ],
+    "requested_seeds_in_last_invocation": [
+      42,
+      2027
+    ],
+    "epochs": 5,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_length": 128
+  },
+  "aggregate": {
+    "accuracy": {
+      "mean": 0.9532990168799852,
+      "std": 0.013076399263636103,
+      "min": 0.9382303839732888,
+      "max": 0.9616666666666667
+    },
+    "macro_f1": {
+      "mean": 0.901016933973748,
+      "std": 0.029349497260198795,
+      "min": 0.8686286713493969,
+      "max": 0.9258507020004191
+    },
+    "hard_negative_accuracy": {
+      "mean": 0.7768332824323866,
+      "std": 0.0931076457919435,
+      "min": 0.6702127659574468,
+      "max": 0.8421052631578947
+    }
+  }
+}

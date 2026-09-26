@@ -1,0 +1,24 @@
+{
+  "version": "v3.0",
+  "scope": "copyright-safe audit of annotated positive support",
+  "catalog_points": 572,
+  "unique_sentence_point_pairs": 3645,
+  "points_with_annotated_positive": 219,
+  "points_without_annotated_positive": 353,
+  "points_with_at_least_2": 196,
+  "points_with_at_least_3": 150,
+  "points_with_at_least_5": 115,
+  "points_with_exactly_1": 23,
+  "points_with_exactly_2": 46,
+  "sheet_rows_with_official_ids": {
+    "Sheet1": 375,
+    "Sheet2": 374
+  },
+  "source_workbook_sha256": "acd97d81b442afc3a2de42b397a1f488140b1d42c210c43d510630a096068b43",
+  "privacy": {
+    "sentence_text_released": false,
+    "annotation_text_released": false,
+    "sentence_hashes_are_unsalted_sha256": true
+  },
+  "integrity_pass": true
+}

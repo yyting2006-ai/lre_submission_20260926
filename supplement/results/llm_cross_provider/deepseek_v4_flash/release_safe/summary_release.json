@@ -1,0 +1,83 @@
+{
+  "protocol": {
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "reasoning_effort": "not_applicable",
+    "api": "OpenAI-compatible Chat Completions API",
+    "store_control": "not_sent",
+    "seed": 42,
+    "selection_split": "development",
+    "selection_metric": "macro_f1",
+    "tie_breakers": [
+      "accuracy",
+      "variant_name"
+    ],
+    "variants": [
+      "point_retrieved",
+      "point_retrieved_textkg"
+    ],
+    "dev_n": 299,
+    "test_n": 600,
+    "train_n": 2097,
+    "dev_ids_sha256": "6c6e57dff845109e3f5f231238e5082fabefa9ab2495043d2e5efedd5f72b2a2",
+    "test_ids_sha256": "2c2e4f4eeb7c9beebaa3f87ed183614f311891ef616af6eb4c61d1e012595238",
+    "dev_prompt_hashes": {
+      "point_retrieved": "3de24b2007ca98040d6e0e620e340b8596aefa50be68b2278f7feb223a0c533d",
+      "point_retrieved_textkg": "226e69e77b6fbd5184bbd7b53dfd29d5674b1dfd6126eefcc4bb3a6e647db5b3"
+    },
+    "demo_selection": "2 target + 2 non-target; same point, then family, then global; deterministic quality ranking",
+    "point_prior_source": "training split only",
+    "pricing_status": "unknown",
+    "pricing_usd_per_million_tokens": null,
+    "protocol_sha256": "b06688343502f5b72956ee397c55612b299a386b02ebc5908c98ad5c8b720ba6"
+  },
+  "development": {
+    "point_retrieved": {
+      "n": 299,
+      "accuracy": 0.6755852842809364,
+      "macro_f1": 0.6055355321319279,
+      "negative_accuracy": 1.0,
+      "evidence_presence_rate": 1.0,
+      "cue_grounding_rate": 1.0,
+      "overconfident_wrong_rate": 0.32441471571906355,
+      "input_tokens": 244724,
+      "cached_input_tokens": 0,
+      "output_tokens": 22231,
+      "reasoning_tokens": 0,
+      "estimated_standard_api_cost_usd": null,
+      "mean_latency_seconds": 1.5819783702340722
+    },
+    "point_retrieved_textkg": {
+      "n": 299,
+      "accuracy": 0.6789297658862876,
+      "macro_f1": 0.6082541762201114,
+      "negative_accuracy": 1.0,
+      "evidence_presence_rate": 1.0,
+      "cue_grounding_rate": 1.0,
+      "overconfident_wrong_rate": 0.3110367892976589,
+      "input_tokens": 294341,
+      "cached_input_tokens": 0,
+      "output_tokens": 23337,
+      "reasoning_tokens": 0,
+      "estimated_standard_api_cost_usd": null,
+      "mean_latency_seconds": 1.5304111936454978
+    }
+  },
+  "selected_variant": "point_retrieved_textkg",
+  "selected_test_prompt_hash": "73ff6fed3f063e4b13281b35d6e00c48a8d6ee33466b462cb33d39dcf81968a0",
+  "test": {
+    "n": 600,
+    "accuracy": 0.67,
+    "macro_f1": 0.6208639705882353,
+    "negative_accuracy": 0.9789473684210527,
+    "evidence_presence_rate": 1.0,
+    "cue_grounding_rate": 1.0,
+    "overconfident_wrong_rate": 0.325,
+    "input_tokens": 590109,
+    "cached_input_tokens": 0,
+    "output_tokens": 47569,
+    "reasoning_tokens": 0,
+    "estimated_standard_api_cost_usd": null,
+    "mean_latency_seconds": 1.463863411999943
+  }
+}

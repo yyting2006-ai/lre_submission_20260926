@@ -1,0 +1,8 @@
+﻿seed,task,model,accuracy,macro_f1,negative_accuracy,selected_C,train_n,dev_n,test_n,zero_group_overlap,exact_span_f1,relaxed_span_f1,exact_precision,exact_recall,relaxed_precision,relaxed_recall,cue_grounding
+42,structure_evidence_support,char_tfidf_lr,0.86,0.7064941526070397,0.7368421052631579,4.0,699,100,200,1,,,,,,,
+42,structure_evidence_support,char_lr_plus_kg,0.91,0.774704195551101,0.868421052631579,4.0,699,100,200,1,,,,,,,
+42,slot_status,slot_char_tfidf_lr,0.7234848484848485,0.5707295373665481,,4.0,924,132,264,1,,,,,,,
+42,slot_span,executable_slot_rules,,,,,,,264,1,0.3588235294117647,0.6352941176470588,0.31443298969072164,0.4178082191780822,0.5567010309278351,0.7397260273972602,1.0
+42,structure_evidence_support,gpt_5_6_terra_global_6shot_low,0.68,0.5743327349001732,0.868421052631579,,,,200,,,,,,,,
+42,slot_status,gpt_5_6_terra_global_6shot_low,0.678030303030303,0.48675259369691937,,,,,264,,,,,,,,
+42,slot_span,gpt_5_6_terra_global_6shot_low,,,,,,,264,,0.4813559322033898,0.6508474576271186,,,,,1.0

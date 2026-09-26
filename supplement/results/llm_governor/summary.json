@@ -1,0 +1,91 @@
+{
+  "status": "post_hoc_exploratory",
+  "selection_split": "development",
+  "selection_metric": "macro_f1",
+  "confidence_transform": "self-reported target probability clipped to [0.0001, 0.9999], then logit",
+  "threshold_grid": [
+    -1.0,
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+  ],
+  "accept_weight_grid": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "weak_weight_grid": [
+    -3.0,
+    -2.0,
+    -1.5,
+    -1.0,
+    -0.5,
+    0.0
+  ],
+  "strong_weight_grid": [
+    -6.0,
+    -4.0,
+    -3.0,
+    -2.0,
+    -1.0,
+    0.0
+  ],
+  "selected_threshold_only": 0.0,
+  "selected_governor_weights": {
+    "accept": 4.0,
+    "weak_reject": -3.0,
+    "strong_reject": 0.0,
+    "threshold": -0.5
+  },
+  "selection_scores": {
+    "threshold_only": {
+      "accuracy": 0.8193979933110368,
+      "macro_f1": 0.7252960391996733,
+      "hard_negative_accuracy": 0.9210526315789473
+    },
+    "governor": {
+      "accuracy": 0.8595317725752508,
+      "macro_f1": 0.7724010439321444,
+      "hard_negative_accuracy": 0.9473684210526315
+    }
+  },
+  "dev": {
+    "raw_llm": {
+      "accuracy": 0.8193979933110368,
+      "macro_f1": 0.7252960391996733,
+      "hard_negative_accuracy": 0.9210526315789473
+    },
+    "local_threshold_only": {
+      "accuracy": 0.8193979933110368,
+      "macro_f1": 0.7252960391996733,
+      "hard_negative_accuracy": 0.9210526315789473
+    },
+    "llm_plus_exec_kg_governor": {
+      "accuracy": 0.8595317725752508,
+      "macro_f1": 0.7724010439321444,
+      "hard_negative_accuracy": 0.9473684210526315
+    }
+  },
+  "test": {
+    "raw_llm": {
+      "accuracy": 0.815,
+      "macro_f1": 0.7395089783354389,
+      "hard_negative_accuracy": 0.8736842105263158
+    },
+    "local_threshold_only": {
+      "accuracy": 0.815,
+      "macro_f1": 0.7395089783354389,
+      "hard_negative_accuracy": 0.8736842105263158
+    },
+    "llm_plus_exec_kg_governor": {
+      "accuracy": 0.8783333333333333,
+      "macro_f1": 0.8128005128753072,
+      "hard_negative_accuracy": 0.9052631578947369
+    }
+  }
+}

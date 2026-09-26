@@ -1,0 +1,11 @@
+{
+  "audit_version": "1.2",
+  "audited_files": 130,
+  "cross_provider_files_audited": 10,
+  "v3_files_audited": 16,
+  "handbook_alignment_rows_checked": 572,
+  "verbatim_sentences_checked": 2997,
+  "authority_metadata_exemptions": 2,
+  "findings": [],
+  "pass": true
+}

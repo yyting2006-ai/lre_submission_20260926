@@ -1,0 +1,22 @@
+# LaTeX and local build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local rendering and QA scratch
+qa_render*/
+preview/
+
+# Operating-system files
+.DS_Store
+Thumbs.db

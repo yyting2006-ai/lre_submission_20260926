@@ -1,0 +1,5 @@
+standard_point_id,field_name,original_value,corrected_value,authority_source_id,authority_pdf_page,evidence_note,verification_status
+GF0025-2021-5-010,section_item,"引出目的、原因","引出施事、受事",REF-GF0025-2021,223,"GF0025-2021 Appendix A, PDF p.223 places 【五10】 将 under A.5.1.4.2 引出施事、受事.",manually_verified_against_official_page
+GF0025-2021-3-002,grammar_point,"#NAME?","儿、家、们、头、子",REF-GF0025-2021,198,"GF0025-2021 Appendix A, PDF p.198 lists 【三02】 后缀: 儿、家、们、头、子.",manually_verified_against_official_page
+GF0025-2021-3-002,canonical_label,"#NAME?","儿、家、们、头、子",REF-GF0025-2021,198,"GF0025-2021 Appendix A, PDF p.198 lists 【三02】 后缀: 儿、家、们、头、子.",manually_verified_against_official_page
+GF0025-2021-3-002,standard_text,"#NAME?","儿、家、们、头、子",REF-GF0025-2021,198,"GF0025-2021 Appendix A, PDF p.198 lists 【三02】 后缀: 儿、家、们、头、子.",manually_verified_against_official_page

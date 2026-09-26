@@ -1,0 +1,51 @@
+{
+  "main_gold": "${ASGD_ROOT}/annotation_qc/outputs/formal_qc_20260718/gold_main_by_filename_majority_annotator2_20260718.csv",
+  "kg_bindings": "${ASGD_ROOT}/grammar_kg/kg/executable_rule_bindings_v1.json",
+  "grammar_points": "${ASGD_ROOT}/grammar_kg/kg/grammar_points_v0_1.csv",
+  "rule_evidence": "${ASGD_ROOT}/grammar_kg/kg/high_frequency_rule_evidence_v0_3.csv",
+  "seeds": [
+    13,
+    42,
+    2027
+  ],
+  "split": {
+    "outer": "StratifiedGroupKFold(n_splits=5)",
+    "inner": "StratifiedGroupKFold(n_splits=8)",
+    "group": "SHA1(NFKC+lower+whitespace-stripped sentence)"
+  },
+  "tfidf": {
+    "analyzer": "char",
+    "ngram_range": [
+      1,
+      4
+    ],
+    "min_df": 2,
+    "max_features": 100000
+  },
+  "C_grid": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "label_canonicalization": {
+    "功能误判": "表层触发但非目标",
+    "不确定": "不确定/需复核"
+  },
+  "decisive_label_policy": {
+    "target_label": [
+      "不是目标语法点",
+      "是目标语法点"
+    ],
+    "extraction": [
+      "候选错误",
+      "正确",
+      "边界不完整",
+      "边界过长"
+    ],
+    "function_type": [
+      "目标用例",
+      "表层触发但非目标",
+      "边界问题"
+    ]
+  }
+}

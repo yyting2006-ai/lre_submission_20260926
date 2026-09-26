@@ -1,0 +1,166 @@
+{
+  "protocol": {
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "low",
+    "temperature": "unsupported/omitted",
+    "api": "OpenAI Responses API",
+    "store": false,
+    "seed": 42,
+    "main_test_n": 600,
+    "evidence_test_n": 200,
+    "slot_test_n": 264,
+    "audit_n": 120,
+    "audit_repeats": 3,
+    "main_demo_ids": [
+      "ASGD-2027-2507",
+      "ASGD-2027-2405",
+      "ASGD-2027-0866",
+      "ASGD-2027-2732",
+      "ASGD-2027-2695",
+      "ASGD-2027-0485"
+    ],
+    "evidence_demo_ids": [
+      "ASGD-2027-2507",
+      "ASGD-2027-2437",
+      "ASGD-2027-1422",
+      "ASGD-2027-0370",
+      "ASGD-2027-0510",
+      "ASGD-2027-1962"
+    ],
+    "slot_demo_keys": [
+      [
+        "ASGD-2027-2795",
+        "agent"
+      ],
+      [
+        "ASGD-2027-1620",
+        "prep_marker"
+      ],
+      [
+        "ASGD-2027-0008",
+        "predicate_1"
+      ],
+      [
+        "ASGD-2027-0024",
+        "agent"
+      ],
+      [
+        "ASGD-2027-2932",
+        "compare_marker"
+      ],
+      [
+        "ASGD-2027-1168",
+        "clause_2"
+      ]
+    ],
+    "main_prompt_sha256": "330d03bf86cd46d826e091b64f3114cec817c840d40164b8a7500e00a0b47a7d",
+    "evidence_prompt_sha256": "605db81defa384ffdd5e57eb6e3286de15c47b14ef999c5e0653fe1166207a5a",
+    "slot_prompt_sha256": "247483dfa6d87950c303d9f09a0f648a5f98ed5eaa62108f581216353bcd414a",
+    "direct_audit_prompt_sha256": "ca854262bb2e904aa1c32084779e835038dee3e3974bc81e52db81355c4e8ac1",
+    "main_test_ids_sha256": "2c2e4f4eeb7c9beebaa3f87ed183614f311891ef616af6eb4c61d1e012595238",
+    "evidence_test_ids_sha256": "0cffb1eabffe5a2dd934754c06d1e3d3879aa9c8063d99a9b9f006efc3eb8faf",
+    "slot_test_keys_sha256": "1c0b681af8b6d43d54dd47ad9ec010724be8aff757f74829647b6b69539ad9bd",
+    "audit_ids_sha256": "701bdb012c55edb017c0481f15ba6e8670a51b40912fab42ee81c583001e970c",
+    "zero_group_overlap": {
+      "main": true,
+      "evidence": true,
+      "slot": true
+    },
+    "external_data_class": "held-out authority-source Chinese sentences, candidate spans, grammar-point names; six training demonstrations per supervised task",
+    "pricing_usd_per_million_tokens": {
+      "input": 2.5,
+      "cached_input": 0.25,
+      "output": 15.0
+    },
+    "protocol_sha256": "35c9d068304c36a745f534fa7bc094af956927bae3bdab0b34dc9d34bb6f737e"
+  },
+  "main": {
+    "n": 600,
+    "accuracy": 0.7566666666666667,
+    "macro_f1": 0.6901484174931733,
+    "negative_accuracy": 0.9263157894736842,
+    "evidence_presence_rate": 1.0,
+    "cue_grounding_rate": 1.0,
+    "overconfident_wrong_rate": 0.24166666666666667,
+    "input_tokens": 614761,
+    "cached_input_tokens": 2059,
+    "output_tokens": 43825,
+    "reasoning_tokens": 337,
+    "estimated_standard_api_cost_usd": 2.18964475,
+    "mean_latency_seconds": 1.7065122479924077
+  },
+  "evidence": {
+    "n": 200,
+    "accuracy": 0.68,
+    "macro_f1": 0.5743327349001732,
+    "negative_accuracy": 0.868421052631579,
+    "evidence_presence_rate": 1.0,
+    "cue_grounding_rate": 1.0,
+    "overconfident_wrong_rate": 0.315,
+    "input_tokens": 236081,
+    "cached_input_tokens": 4699,
+    "output_tokens": 21548,
+    "reasoning_tokens": 1678,
+    "estimated_standard_api_cost_usd": 0.90284975,
+    "mean_latency_seconds": 1.993425773323397
+  },
+  "slot": {
+    "n": 264,
+    "status_accuracy": 0.678030303030303,
+    "status_macro_f1": 0.48675259369691937,
+    "exact_span_f1": 0.4813559322033898,
+    "relaxed_span_f1": 0.6508474576271186,
+    "exact_span_precision": 0.47651006711409394,
+    "exact_span_recall": 0.4863013698630137,
+    "relaxed_span_precision": 0.6442953020134228,
+    "relaxed_span_recall": 0.6575342465753424,
+    "span_grounding_rate": 1.0,
+    "status_span_protocol_validity": 1.0,
+    "cue_grounding_rate": 1.0,
+    "input_tokens": 336253,
+    "cached_input_tokens": 6370,
+    "output_tokens": 29499,
+    "reasoning_tokens": 10500,
+    "estimated_standard_api_cost_usd": 1.268785,
+    "mean_latency_seconds": 2.097137529662701
+  },
+  "direct_audit": {
+    "audit_candidates": 120,
+    "repeats": 3,
+    "call_accuracy": 0.8361111111111111,
+    "label_stability": 0.95,
+    "cue_exact_stability": 0.575,
+    "cue_pairwise_jaccard": 0.7753703703703703,
+    "reason_exact_stability": 0.016666666666666666,
+    "cue_grounding_rate": 1.0,
+    "overconfident_wrong_rate": 0.16111111111111112,
+    "input_tokens": 103998,
+    "cached_input_tokens": 0,
+    "output_tokens": 34498,
+    "reasoning_tokens": 3814,
+    "estimated_standard_api_cost_usd": 0.777465,
+    "mean_latency_seconds": 1.8728212211869606
+  },
+  "rule_audit": {
+    "audit_candidates": 120,
+    "repeats": 3,
+    "call_accuracy": 0.825,
+    "label_stability": 0.9,
+    "cue_exact_stability": 0.4083333333333333,
+    "cue_pairwise_jaccard": 0.6755092592592592,
+    "reason_exact_stability": 0.008333333333333333,
+    "cue_grounding_rate": 1.0,
+    "overconfident_wrong_rate": 0.15833333333333333,
+    "input_tokens": 216150,
+    "cached_input_tokens": 0,
+    "output_tokens": 48892,
+    "reasoning_tokens": 14440,
+    "estimated_standard_api_cost_usd": 1.273755,
+    "mean_latency_seconds": 2.3303391362187944,
+    "valid_rule_id_rate": 1.0,
+    "rule_trace_coverage": 0.9444444444444444,
+    "rule_exact_stability": 0.7833333333333333,
+    "decisive_rule_coverage": 0.8472222222222222,
+    "decisive_rule_label_alignment": 1.0
+  }
+}

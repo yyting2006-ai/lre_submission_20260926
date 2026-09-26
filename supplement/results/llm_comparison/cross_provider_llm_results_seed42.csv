@@ -1,0 +1,4 @@
+system,provider,requested_model,response_model,selected_variant,dev_point_macro_f1,dev_textkg_macro_f1,test_n,test_accuracy,test_macro_f1,test_negative_accuracy,accessed
+GPT-5.6 Terra,OpenAI,gpt-5.6-terra,gpt-5.6-terra,point_retrieved,0.7252960392,0.7018463716,600,0.8150000000,0.7395089783,0.8736842105,2026-07-18
+Qwen-Plus,Alibaba Cloud,qwen-plus,qwen-plus,point_retrieved,0.6558646358,0.6529464286,600,0.7350000000,0.6707790527,0.9263157895,2026-07-19
+DeepSeek-V4-Flash,DeepSeek,deepseek-chat,deepseek-v4-flash,point_retrieved_textkg,0.6055355321,0.6082541762,600,0.6700000000,0.6208639706,0.9789473684,2026-07-19

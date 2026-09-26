@@ -1,0 +1,138 @@
+{
+  "version": "v2.0-full-inventory",
+  "standard": "GF0025-2021",
+  "inventory_scope": {
+    "standard_grammar_points": 572,
+    "experimental_grammar_points_preserved": 37,
+    "standard_levels": 7,
+    "primary_categories": 12,
+    "secondary_categories": 33,
+    "category_subcategory_memberships": 36,
+    "level_distribution": {
+      "1": 48,
+      "2": 81,
+      "3": 81,
+      "4": 76,
+      "5": 71,
+      "6": 67,
+      "7-9": 148
+    }
+  },
+  "base_graph": {
+    "directory": "graph/evaluated_candidate_subgraph",
+    "nodes": 27534,
+    "edges": 61722,
+    "node_type_counts": {
+      "AnnotationDecision": 9000,
+      "AuthoritySource": 10,
+      "CandidateInstance": 3000,
+      "ConsensusDecision": 3000,
+      "EvidenceAssessment": 3000,
+      "EvidenceConsensus": 1000,
+      "GrammarFamily": 8,
+      "GrammarPoint": 37,
+      "GrammarRule": 144,
+      "RuleReliability": 468,
+      "RuntimeRule": 1,
+      "SentenceGroup": 2557,
+      "SlotAssertion": 3960,
+      "SlotConsensus": 1320,
+      "SlotType": 29
+    },
+    "relation_counts": {
+      "ACTIVATES_RULE": 5781,
+      "ANNOTATED_AS": 9000,
+      "ASSESSED_BY": 3000,
+      "BELONGS_TO_FAMILY": 37,
+      "CANDIDATE_OF": 3000,
+      "CITES": 772,
+      "CONTRIBUTES_TO": 15960,
+      "DERIVED_FROM": 3000,
+      "GOVERNED_BY": 144,
+      "HAS_CONSENSUS": 3000,
+      "HAS_EVIDENCE_CONSENSUS": 1000,
+      "HAS_SLOT_ASSERTION": 3960,
+      "HAS_SLOT_CONSENSUS": 1320,
+      "HAS_TRAIN_RELIABILITY": 468,
+      "INSTANCE_OF_SLOT": 5280,
+      "IN_FAMILY": 3000,
+      "OCCURS_IN": 3000
+    }
+  },
+  "added": {
+    "nodes": 624,
+    "edges": 2324,
+    "node_type_counts": {
+      "StandardCategory": 12,
+      "StandardGrammarPoint": 572,
+      "StandardLevel": 7,
+      "StandardSubcategory": 33
+    },
+    "relation_counts": {
+      "BELONGS_TO_STANDARD_CATEGORY": 572,
+      "BELONGS_TO_STANDARD_SUBCATEGORY": 572,
+      "DEFINED_BY": 572,
+      "IN_STANDARD_LEVEL": 572,
+      "SUBCATEGORY_OF": 36
+    }
+  },
+  "total": {
+    "nodes": 28158,
+    "edges": 64046,
+    "node_type_counts": {
+      "AnnotationDecision": 9000,
+      "AuthoritySource": 10,
+      "CandidateInstance": 3000,
+      "ConsensusDecision": 3000,
+      "EvidenceAssessment": 3000,
+      "EvidenceConsensus": 1000,
+      "GrammarFamily": 8,
+      "GrammarPoint": 37,
+      "GrammarRule": 144,
+      "RuleReliability": 468,
+      "RuntimeRule": 1,
+      "SentenceGroup": 2557,
+      "SlotAssertion": 3960,
+      "SlotConsensus": 1320,
+      "SlotType": 29,
+      "StandardCategory": 12,
+      "StandardGrammarPoint": 572,
+      "StandardLevel": 7,
+      "StandardSubcategory": 33
+    },
+    "relation_counts": {
+      "ACTIVATES_RULE": 5781,
+      "ANNOTATED_AS": 9000,
+      "ASSESSED_BY": 3000,
+      "BELONGS_TO_FAMILY": 37,
+      "BELONGS_TO_STANDARD_CATEGORY": 572,
+      "BELONGS_TO_STANDARD_SUBCATEGORY": 572,
+      "CANDIDATE_OF": 3000,
+      "CITES": 772,
+      "CONTRIBUTES_TO": 15960,
+      "DEFINED_BY": 572,
+      "DERIVED_FROM": 3000,
+      "GOVERNED_BY": 144,
+      "HAS_CONSENSUS": 3000,
+      "HAS_EVIDENCE_CONSENSUS": 1000,
+      "HAS_SLOT_ASSERTION": 3960,
+      "HAS_SLOT_CONSENSUS": 1320,
+      "HAS_TRAIN_RELIABILITY": 468,
+      "INSTANCE_OF_SLOT": 5280,
+      "IN_FAMILY": 3000,
+      "IN_STANDARD_LEVEL": 572,
+      "OCCURS_IN": 3000,
+      "SUBCATEGORY_OF": 36
+    }
+  },
+  "integrity": {
+    "catalog_rows": 572,
+    "unique_standard_point_ids": 572,
+    "duplicate_node_ids": 0,
+    "duplicate_edges": 0,
+    "dangling_edges": 0,
+    "v1_nodes_preserved": 27534,
+    "v1_edges_preserved": 61722,
+    "integrity_pass": true
+  }
+}

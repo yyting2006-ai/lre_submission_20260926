@@ -1,0 +1,286 @@
+{
+  "version": "v1.0",
+  "description": "Machine-executable bindings for the high-frequency grammar rules. Each runtime condition is linked to rule IDs in high_frequency_rule_evidence_v0_3.csv.",
+  "authority_table": "high_frequency_rule_evidence_v0_3.csv",
+  "global_meta_patterns": [
+    "例句[①②③④⑤⑥⑦⑧⑨]?",
+    "语法点",
+    "候选",
+    "用[“\"]",
+    "[“\"]字句",
+    "[A-Z]:",
+    "……|\\.\\.\\."
+  ],
+  "rules": {
+    "把字句候选": {
+      "marker_pattern": "把",
+      "structure_pattern": "把.{2,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0001",
+        "KG-RULE-V02-0002",
+        "KG-RULE-V02-0003"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0005"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0007",
+        "KG-RULE-V02-0008"
+      ]
+    },
+    "将字处置候选": {
+      "marker_pattern": "将",
+      "structure_pattern": "将.{2,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0012",
+        "KG-RULE-V02-0013"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0015",
+        "KG-RULE-V02-0016"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0017",
+        "KG-RULE-V02-0018"
+      ]
+    },
+    "被字句候选": {
+      "marker_pattern": "(?:被|叫|让|给|为.{1,10}所)",
+      "structure_pattern": "(?:被|叫|让|给|为.{1,10}所).{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0022",
+        "KG-RULE-V02-0024"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0025"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0026",
+        "KG-RULE-V02-0027"
+      ]
+    },
+    "时间状语候选": {
+      "marker_pattern": "(?:今天|昨天|明天|早上|上午|中午|下午|晚上|现在|刚才|马上|以前|以后|后来|平时|每天|每周|每月|每年|[0-9一二三四五六七八九十两半]+(?:年|月|日|天|点|时|分钟|小时)|时候)",
+      "structure_pattern": "(?:今天|昨天|明天|早上|上午|中午|下午|晚上|现在|刚才|马上|以前|以后|后来|平时|每天|每周|每月|每年|[0-9一二三四五六七八九十两半]+(?:年|月|日|天|点|时|分钟|小时)|时候)",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0030",
+        "KG-RULE-V02-0031",
+        "KG-RULE-V02-0032"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0033",
+        "KG-RULE-V02-0034"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0035",
+        "KG-RULE-V02-0036"
+      ]
+    },
+    "处所状语候选": {
+      "marker_pattern": "(?:(?:在|从|到|往|向|朝).{1,}|这里|那里|哪儿|哪里|家里|学校|教室|房间|北京|中国)",
+      "structure_pattern": "(?:(?:在|从|到|往|向|朝).{1,}|这里|那里|哪儿|哪里|家里|学校|教室|房间|北京|中国)",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0039",
+        "KG-RULE-V02-0040",
+        "KG-RULE-V02-0041"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0042"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0043",
+        "KG-RULE-V02-0044"
+      ],
+      "hard_negative_patterns": [
+        "正在|在意|现在"
+      ]
+    },
+    "得字补语候选": {
+      "marker_pattern": "得",
+      "structure_pattern": ".{1,}得.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0047",
+        "KG-RULE-V02-0048"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0049"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0050"
+      ],
+      "hard_negative_patterns": [
+        "觉得|记得|懂得|舍得|值得|获得|取得|不得不"
+      ]
+    },
+    "比字比较候选": {
+      "marker_pattern": "比",
+      "structure_pattern": "比.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0053",
+        "KG-RULE-V02-0054"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0055"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0056"
+      ],
+      "hard_negative_patterns": [
+        "比如|比方|比赛|比例|比分|比较"
+      ]
+    },
+    "没有比较候选": {
+      "marker_pattern": "没有",
+      "structure_pattern": "没有.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0059",
+        "KG-RULE-V02-0060",
+        "KG-RULE-V02-0061"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0062",
+        "KG-RULE-V02-0063"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0064",
+        "KG-RULE-V02-0065"
+      ]
+    },
+    "越...越候选": {
+      "marker_pattern": "越",
+      "structure_pattern": "越.+越",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0069",
+        "KG-RULE-V02-0070",
+        "KG-RULE-V02-0071"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0072",
+        "KG-RULE-V02-0073"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0074",
+        "KG-RULE-V02-0075"
+      ]
+    },
+    "不如比较候选": {
+      "marker_pattern": "不如",
+      "structure_pattern": "不如.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0079",
+        "KG-RULE-V02-0080",
+        "KG-RULE-V02-0081"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0082",
+        "KG-RULE-V02-0083"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0084",
+        "KG-RULE-V02-0085"
+      ]
+    },
+    "一样比较候选": {
+      "marker_pattern": "一样",
+      "structure_pattern": "(?:(?:跟|和|与).+一样|一样.{1,})",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0089",
+        "KG-RULE-V02-0090",
+        "KG-RULE-V02-0091"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0092",
+        "KG-RULE-V02-0093"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0094",
+        "KG-RULE-V02-0095"
+      ]
+    },
+    "在字介词框架候选": {
+      "marker_pattern": "在",
+      "structure_pattern": "在.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0099",
+        "KG-RULE-V02-0100",
+        "KG-RULE-V02-0101"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0102",
+        "KG-RULE-V02-0103"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0104",
+        "KG-RULE-V02-0105"
+      ],
+      "hard_negative_patterns": [
+        "正在|在意|现在|实在"
+      ]
+    },
+    "从字介词框架候选": {
+      "marker_pattern": "从",
+      "structure_pattern": "从.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0109",
+        "KG-RULE-V02-0110"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0111"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0112"
+      ]
+    },
+    "对字介词框架候选": {
+      "marker_pattern": "对",
+      "structure_pattern": "对.{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0115",
+        "KG-RULE-V02-0116",
+        "KG-RULE-V02-0117"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0118",
+        "KG-RULE-V02-0119"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0120",
+        "KG-RULE-V02-0121"
+      ]
+    },
+    "向/往/朝介词框架候选": {
+      "marker_pattern": "(?:向|往|朝)",
+      "structure_pattern": "(?:向|往|朝).{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0125",
+        "KG-RULE-V02-0126",
+        "KG-RULE-V02-0127"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0128",
+        "KG-RULE-V02-0129"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0130",
+        "KG-RULE-V02-0131"
+      ]
+    },
+    "给/为/关于等介词框架候选": {
+      "marker_pattern": "(?:给|为|为了|关于|对于|由于|由)",
+      "structure_pattern": "(?:给|为|为了|关于|对于|由于|由).{1,}",
+      "positive_rule_ids": [
+        "KG-RULE-V02-0135",
+        "KG-RULE-V02-0136",
+        "KG-RULE-V02-0137"
+      ],
+      "weak_rule_ids": [
+        "KG-RULE-V02-0138",
+        "KG-RULE-V02-0139"
+      ],
+      "strong_rule_ids": [
+        "KG-RULE-V02-0140",
+        "KG-RULE-V02-0141"
+      ]
+    }
+  }
+}

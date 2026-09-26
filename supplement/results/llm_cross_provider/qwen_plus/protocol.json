@@ -1,0 +1,32 @@
+{
+  "model": "qwen-plus",
+  "provider": "qwen",
+  "reasoning_effort": "not_applicable",
+  "api": "OpenAI-compatible Chat Completions API",
+  "store_control": "not_sent",
+  "seed": 42,
+  "selection_split": "development",
+  "selection_metric": "macro_f1",
+  "tie_breakers": [
+    "accuracy",
+    "variant_name"
+  ],
+  "variants": [
+    "point_retrieved",
+    "point_retrieved_textkg"
+  ],
+  "dev_n": 299,
+  "test_n": 600,
+  "train_n": 2097,
+  "dev_ids_sha256": "6c6e57dff845109e3f5f231238e5082fabefa9ab2495043d2e5efedd5f72b2a2",
+  "test_ids_sha256": "2c2e4f4eeb7c9beebaa3f87ed183614f311891ef616af6eb4c61d1e012595238",
+  "dev_prompt_hashes": {
+    "point_retrieved": "3de24b2007ca98040d6e0e620e340b8596aefa50be68b2278f7feb223a0c533d",
+    "point_retrieved_textkg": "226e69e77b6fbd5184bbd7b53dfd29d5674b1dfd6126eefcc4bb3a6e647db5b3"
+  },
+  "demo_selection": "2 target + 2 non-target; same point, then family, then global; deterministic quality ranking",
+  "point_prior_source": "training split only",
+  "pricing_status": "unknown",
+  "pricing_usd_per_million_tokens": null,
+  "protocol_sha256": "fa1fd8ef332e8c5c0d526b499714f1b0415e625d1ce90f1aae14419ea31277a3"
+}

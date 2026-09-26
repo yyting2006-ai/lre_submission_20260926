@@ -1,0 +1,10 @@
+﻿model_a,model_b,a_only_correct,b_only_correct,discordant,exact_mcnemar_p,note
+char_svm_plus_kg_constraints,gpt_5_6_terra_point_4shot_medium,102,16,118,1.6554428099502255e-16,Candidate-level descriptive; sentence-group bootstrap is primary.
+char_svm_plus_kg_constraints,gpt_5_6_terra_point_4shot_plus_exec_kg_governor,67,19,86,1.9409574271727466e-07,Candidate-level descriptive; sentence-group bootstrap is primary.
+macbert_base_finetuned,gpt_5_6_terra_point_4shot_medium,102,14,116,1.1257071535022126e-17,Candidate-level descriptive; sentence-group bootstrap is primary.
+macbert_base_finetuned,gpt_5_6_terra_point_4shot_plus_exec_kg_governor,65,15,80,1.411466840981396e-08,Candidate-level descriptive; sentence-group bootstrap is primary.
+char_tfidf_svm,gpt_5_6_terra_point_4shot_medium,101,20,121,3.291899218675177e-14,Candidate-level descriptive; sentence-group bootstrap is primary.
+char_tfidf_svm,gpt_5_6_terra_point_4shot_plus_exec_kg_governor,66,23,89,5.690249181613522e-06,Candidate-level descriptive; sentence-group bootstrap is primary.
+gpt_5_6_terra_point_4shot_plus_exec_kg_governor,gpt_5_6_terra_point_4shot_medium,39,1,40,7.457856554538012e-11,Candidate-level descriptive; sentence-group bootstrap is primary.
+gpt_5_6_terra_point_4shot_medium,gpt_5_6_terra_global_6shot_low,53,18,71,3.884758279363993e-05,Candidate-level descriptive; sentence-group bootstrap is primary.
+char_svm_plus_kg_constraints,macbert_base_finetuned,8,10,18,0.8145294189453125,Candidate-level descriptive; sentence-group bootstrap is primary.

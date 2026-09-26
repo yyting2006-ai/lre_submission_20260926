@@ -1,0 +1,9 @@
+{
+  "audit_version": "v1.0",
+  "rules": 144,
+  "grammar_points": 16,
+  "verified_grammar_points": 16,
+  "all_points_verified": true,
+  "definition_like_page_criterion": "At least one anchored page contains a point marker and one of: basic meaning/use, structural characteristics, or tip.",
+  "copyright_note": "No handbook page text is stored in the audit output."
+}

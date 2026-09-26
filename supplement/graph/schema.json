@@ -1,0 +1,47 @@
+{
+  "node_types": [
+    "AnnotationDecision",
+    "AuthoritySource",
+    "CandidateInstance",
+    "ConsensusDecision",
+    "EvidenceAssessment",
+    "EvidenceConsensus",
+    "GrammarFamily",
+    "GrammarPoint",
+    "GrammarRule",
+    "RuleReliability",
+    "RuntimeRule",
+    "SentenceGroup",
+    "SlotAssertion",
+    "SlotConsensus",
+    "SlotType"
+  ],
+  "edge_types": [
+    "ACTIVATES_RULE",
+    "ANNOTATED_AS",
+    "ASSESSED_BY",
+    "BELONGS_TO_FAMILY",
+    "CANDIDATE_OF",
+    "CITES",
+    "CONTRIBUTES_TO",
+    "DERIVED_FROM",
+    "GOVERNED_BY",
+    "HAS_CONSENSUS",
+    "HAS_EVIDENCE_CONSENSUS",
+    "HAS_SLOT_ASSERTION",
+    "HAS_SLOT_CONSENSUS",
+    "HAS_TRAIN_RELIABILITY",
+    "INSTANCE_OF_SLOT",
+    "IN_FAMILY",
+    "OCCURS_IN"
+  ],
+  "primary_path": "CandidateInstance -> GrammarPoint -> GrammarRule -> AuthoritySource",
+  "audit_paths": [
+    "CandidateInstance -> SentenceGroup",
+    "CandidateInstance -> AnnotationDecision -> ConsensusDecision",
+    "CandidateInstance -> EvidenceAssessment -> EvidenceConsensus",
+    "CandidateInstance -> SlotAssertion -> SlotConsensus -> SlotType",
+    "CandidateInstance -> GrammarRule -> AuthoritySource",
+    "GrammarRule -> RuleReliability (training split only)"
+  ]
+}

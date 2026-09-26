@@ -1,0 +1,441 @@
+{
+  "agreement_summary": [
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "n": 3000,
+      "three_way_exact_agreement": 0.452,
+      "at_least_two_agree": 0.9366666666666666,
+      "fleiss_observed_pair_agreement": 0.6135555555555556,
+      "fleiss_kappa": 0.21071650410398687,
+      "gwet_ac1": 0.5596558650516711
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "n": 3000,
+      "three_way_exact_agreement": 0.7043333333333334,
+      "at_least_two_agree": 0.9986666666666667,
+      "fleiss_observed_pair_agreement": 0.8024444444444445,
+      "fleiss_kappa": 0.38477021386636145,
+      "gwet_ac1": 0.7787642083716904
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "n": 3000,
+      "three_way_exact_agreement": 0.45166666666666666,
+      "at_least_two_agree": 0.9396666666666667,
+      "fleiss_observed_pair_agreement": 0.6143333333333333,
+      "fleiss_kappa": 0.20447715439397565,
+      "gwet_ac1": 0.5729243831087597
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "n": 1000,
+      "three_way_exact_agreement": 0.475,
+      "at_least_two_agree": 0.943,
+      "fleiss_observed_pair_agreement": 0.631,
+      "fleiss_kappa": 0.22516214199621187,
+      "gwet_ac1": 0.5613707211192139
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "n": 1000,
+      "three_way_exact_agreement": 0.475,
+      "at_least_two_agree": 0.943,
+      "fleiss_observed_pair_agreement": 0.631,
+      "fleiss_kappa": 0.2254216565667497,
+      "gwet_ac1": 0.581111628327323
+    },
+    {
+      "section": "evidence",
+      "field": "易混对象",
+      "n": 1000,
+      "three_way_exact_agreement": 0.0,
+      "at_least_two_agree": 0.954,
+      "fleiss_observed_pair_agreement": 0.318,
+      "fleiss_kappa": -0.1603853734728114,
+      "gwet_ac1": 0.2703510210977946
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "n": 1320,
+      "three_way_exact_agreement": 0.38712121212121214,
+      "at_least_two_agree": 0.9318181818181818,
+      "fleiss_observed_pair_agreement": 0.5686868686868687,
+      "fleiss_kappa": 0.25304423172450474,
+      "gwet_ac1": 0.46588197897088496
+    }
+  ],
+  "pairwise": [
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "annotator_pair": "1-2",
+      "n": 3000,
+      "exact_agreement": 0.659,
+      "cohen_kappa": 0.3060655613158571
+    },
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "annotator_pair": "1-3",
+      "n": 3000,
+      "exact_agreement": 0.6956666666666667,
+      "cohen_kappa": 0.29930892776102713
+    },
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "annotator_pair": "2-3",
+      "n": 3000,
+      "exact_agreement": 0.486,
+      "cohen_kappa": 0.1204085745903416
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "annotator_pair": "1-2",
+      "n": 3000,
+      "exact_agreement": 0.7726666666666666,
+      "cohen_kappa": 0.39532931795747783
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "annotator_pair": "1-3",
+      "n": 3000,
+      "exact_agreement": 0.8833333333333333,
+      "cohen_kappa": 0.5317115985671265
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "annotator_pair": "2-3",
+      "n": 3000,
+      "exact_agreement": 0.7513333333333333,
+      "cohen_kappa": 0.30421049031708486
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "annotator_pair": "1-2",
+      "n": 3000,
+      "exact_agreement": 0.6583333333333333,
+      "cohen_kappa": 0.30447236708297293
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "annotator_pair": "1-3",
+      "n": 3000,
+      "exact_agreement": 0.6956666666666667,
+      "cohen_kappa": 0.29923399290791014
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "annotator_pair": "2-3",
+      "n": 3000,
+      "exact_agreement": 0.489,
+      "cohen_kappa": 0.10030776165022223
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "annotator_pair": "1-2",
+      "n": 1000,
+      "exact_agreement": 0.682,
+      "cohen_kappa": 0.32571690287778954
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "annotator_pair": "1-3",
+      "n": 1000,
+      "exact_agreement": 0.695,
+      "cohen_kappa": 0.29921144054555815
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "annotator_pair": "2-3",
+      "n": 1000,
+      "exact_agreement": 0.516,
+      "cohen_kappa": 0.143071627880625
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "annotator_pair": "1-2",
+      "n": 1000,
+      "exact_agreement": 0.682,
+      "cohen_kappa": 0.32571690287778954
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "annotator_pair": "1-3",
+      "n": 1000,
+      "exact_agreement": 0.695,
+      "cohen_kappa": 0.29921144054555815
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "annotator_pair": "2-3",
+      "n": 1000,
+      "exact_agreement": 0.516,
+      "cohen_kappa": 0.14378714973110673
+    },
+    {
+      "section": "evidence",
+      "field": "易混对象",
+      "annotator_pair": "1-2",
+      "n": 1000,
+      "exact_agreement": 0.264,
+      "cohen_kappa": 0.03622030746667367
+    },
+    {
+      "section": "evidence",
+      "field": "易混对象",
+      "annotator_pair": "1-3",
+      "n": 1000,
+      "exact_agreement": 0.014,
+      "cohen_kappa": 0.012123033764151888
+    },
+    {
+      "section": "evidence",
+      "field": "易混对象",
+      "annotator_pair": "2-3",
+      "n": 1000,
+      "exact_agreement": 0.676,
+      "cohen_kappa": 0.15480612713385383
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "annotator_pair": "1-2",
+      "n": 1320,
+      "exact_agreement": 0.44393939393939397,
+      "cohen_kappa": 0.15524861348578523
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "annotator_pair": "1-3",
+      "n": 1320,
+      "exact_agreement": 0.6151515151515151,
+      "cohen_kappa": 0.3173447136362062
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "annotator_pair": "2-3",
+      "n": 1320,
+      "exact_agreement": 0.646969696969697,
+      "cohen_kappa": 0.38711641221183907
+    }
+  ],
+  "slot_span_pairwise": [
+    {
+      "annotator_pair": "1-2",
+      "both_marked_n": 488,
+      "exact_span_agreement": 0.4774590163934426,
+      "relaxed_span_agreement": 0.8545081967213115
+    },
+    {
+      "annotator_pair": "1-3",
+      "both_marked_n": 558,
+      "exact_span_agreement": 0.7150537634408602,
+      "relaxed_span_agreement": 0.9516129032258065
+    },
+    {
+      "annotator_pair": "2-3",
+      "both_marked_n": 619,
+      "exact_span_agreement": 0.5250403877221325,
+      "relaxed_span_agreement": 0.8836833602584814
+    }
+  ],
+  "adjudication": [
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "decision_source": "多数裁决",
+      "count": 1454,
+      "proportion": 0.4846666666666667
+    },
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "decision_source": "三人一致",
+      "count": 1356,
+      "proportion": 0.452
+    },
+    {
+      "section": "main",
+      "field": "候选提取是否正确",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 190,
+      "proportion": 0.06333333333333334
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "decision_source": "三人一致",
+      "count": 2113,
+      "proportion": 0.7043333333333334
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "decision_source": "多数裁决",
+      "count": 883,
+      "proportion": 0.29433333333333334
+    },
+    {
+      "section": "main",
+      "field": "主标签：是否为目标语法点",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 4,
+      "proportion": 0.0013333333333333333
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "decision_source": "多数裁决",
+      "count": 1464,
+      "proportion": 0.488
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "decision_source": "三人一致",
+      "count": 1355,
+      "proportion": 0.45166666666666666
+    },
+    {
+      "section": "main",
+      "field": "功能/问题类型",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 181,
+      "proportion": 0.060333333333333336
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "decision_source": "三人一致",
+      "count": 475,
+      "proportion": 0.475
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "decision_source": "多数裁决",
+      "count": 468,
+      "proportion": 0.468
+    },
+    {
+      "section": "evidence",
+      "field": "结构槽位是否支持",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 57,
+      "proportion": 0.057
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "decision_source": "三人一致",
+      "count": 475,
+      "proportion": 0.475
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "decision_source": "多数裁决",
+      "count": 468,
+      "proportion": 0.468
+    },
+    {
+      "section": "evidence",
+      "field": "缺失/异常槽位",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 57,
+      "proportion": 0.057
+    },
+    {
+      "section": "evidence",
+      "field": "易混对象",
+      "decision_source": "多数裁决",
+      "count": 954,
+      "proportion": 0.954
+    },
+    {
+      "section": "evidence",
+      "field": "易混对象",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 46,
+      "proportion": 0.046
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "decision_source": "多数裁决",
+      "count": 719,
+      "proportion": 0.5446969696969697
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "decision_source": "三人一致",
+      "count": 511,
+      "proportion": 0.38712121212121214
+    },
+    {
+      "section": "slot",
+      "field": "槽位状态",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 90,
+      "proportion": 0.06818181818181818
+    },
+    {
+      "section": "slot",
+      "field": "槽位片段（从句子中复制；条件必填）",
+      "decision_source": "多数裁决",
+      "count": 330,
+      "proportion": 0.25
+    },
+    {
+      "section": "slot",
+      "field": "槽位片段（从句子中复制；条件必填）",
+      "decision_source": "无多数-标注者2裁决",
+      "count": 320,
+      "proportion": 0.24242424242424243
+    },
+    {
+      "section": "slot",
+      "field": "槽位片段（从句子中复制；条件必填）",
+      "decision_source": "空值",
+      "count": 273,
+      "proportion": 0.20681818181818182
+    },
+    {
+      "section": "slot",
+      "field": "槽位片段（从句子中复制；条件必填）",
+      "decision_source": "三人一致",
+      "count": 209,
+      "proportion": 0.15833333333333333
+    },
+    {
+      "section": "slot",
+      "field": "槽位片段（从句子中复制；条件必填）",
+      "decision_source": "无多数-非空回退",
+      "count": 188,
+      "proportion": 0.14242424242424243
+    }
+  ]
+}

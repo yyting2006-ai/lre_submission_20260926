@@ -1,0 +1,13 @@
+scope,seed,regime,baseline,model,metric,delta_pct,ci_low_pct,ci_high_pct,p,n_finite_draws,n_union_groups,complex_families,bootstrap_samples,bootstrap_seed
+mean_of_three_seeds_shared_group_weight,pooled,all,char_tfidf_svm,char_svm_plus_kg_constraints,macro_f1,2.09,0.84,3.4,0.0008,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,all,macbert_base_finetuned,char_svm_plus_kg_constraints,macro_f1,0.98,-1.53,3.6,0.464,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,all,executable_kg_rules,char_svm_plus_kg_constraints,macro_f1,34.93,31.35,38.56,0.0,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,all,char_tfidf_lr,char_lr_plus_kg_constraints,macro_f1,3.65,1.83,5.59,0.0,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,all,char_lr_plus_kg_markers,char_lr_plus_kg_constraints,macro_f1,2.19,0.97,3.56,0.0004,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,complex_functional,char_tfidf_lr,char_lr_plus_kg_markers,macro_f1,3.84,-0.15,8.07,0.0592,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,complex_functional,char_lr_plus_kg_markers,char_lr_plus_kg_constraints,macro_f1,1.37,-0.38,3.76,0.2016,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,complex_functional,char_tfidf_lr,char_lr_plus_kg_constraints,macro_f1,5.2,0.91,9.74,0.0192,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,structural_pattern,char_tfidf_lr,char_lr_plus_kg_markers,macro_f1,0.54,-1.2,2.27,0.562,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,structural_pattern,char_lr_plus_kg_markers,char_lr_plus_kg_constraints,macro_f1,2.57,1.08,4.25,0.0012,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,structural_pattern,char_tfidf_lr,char_lr_plus_kg_constraints,macro_f1,3.11,1.09,5.2,0.0012,5000,1259,时间/处所功能结构,5000,20270926
+mean_of_three_seeds_shared_group_weight,pooled,all,macbert_base_finetuned,char_svm_plus_kg_constraints,hard_negative_accuracy,7.84,1.72,14.41,0.0096,5000,1259,时间/处所功能结构,5000,20270926

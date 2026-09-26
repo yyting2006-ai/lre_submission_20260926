@@ -1,0 +1,10 @@
+﻿seed,task,train_excluded_as_review,dev_excluded_as_review,test_excluded_as_review,test_decisive_coverage
+13,target_label,2,1,1,0.9983333333333333
+13,extraction,5,1,1,0.9983333333333333
+13,function_type,5,1,1,0.9983333333333333
+42,target_label,3,1,0,1.0
+42,extraction,4,1,2,0.9966666666666667
+42,function_type,4,1,2,0.9966666666666667
+2027,target_label,3,1,0,1.0
+2027,extraction,5,1,1,0.9983333333333333
+2027,function_type,5,1,1,0.9983333333333333

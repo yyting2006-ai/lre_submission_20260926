@@ -1,0 +1,24 @@
+{
+  "benchmark_seed": 42,
+  "test_candidates": 600,
+  "device": "mps",
+  "lightweight_kg_svm": {
+    "training_seconds_including_C_tuning": 0.5532907909946516,
+    "median_inference_seconds": 0.029059729538857937,
+    "candidates_per_second": 20647.129533593736,
+    "serialized_size_mib": 0.2872953414916992,
+    "text_feature_count": 23250,
+    "kg_feature_count": 124,
+    "selected_C": 4.0
+  },
+  "macbert_base": {
+    "mean_finetuning_seconds_over_three_seeds": 237.4034277598063,
+    "median_inference_seconds": 2.175392167060636,
+    "candidates_per_second": 275.8123381545098,
+    "parameter_count": 102269186,
+    "largest_cached_weight_file_mib": 392.51600074768066,
+    "batch_size": 32,
+    "max_length": 128,
+    "latency_note": "Random classification head; architecture-level inference cost only. Model load time excluded."
+  }
+}

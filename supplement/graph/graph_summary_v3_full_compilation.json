@@ -1,0 +1,142 @@
+{
+  "version": "v3.0-full-compilation",
+  "standard": "GF0025-2021",
+  "scope": {
+    "standard_grammar_points": 572,
+    "diagnostic_units": 646,
+    "diagnostic_profiles": 646,
+    "diagnostic_templates": 233,
+    "runtime_bindings": 646,
+    "contract_tests": 4522,
+    "handbook_alignments": 572,
+    "catalog_corrections": 4
+  },
+  "base_graph": {
+    "directory": "restricted/not_released/kg_v2_full_inventory",
+    "nodes": 28158,
+    "edges": 64046
+  },
+  "added": {
+    "nodes": 7221,
+    "edges": 8852,
+    "node_type_counts": {
+      "CatalogCorrection": 4,
+      "DiagnosticContractTest": 4522,
+      "DiagnosticProfile": 646,
+      "DiagnosticTemplate": 233,
+      "DiagnosticUnit": 646,
+      "HandbookPageAnchor": 524,
+      "RuntimeBinding": 646
+    },
+    "relation_counts": {
+      "ALIGNED_TO_HANDBOOK_PAGE": 572,
+      "COMPILES_TO": 646,
+      "CORRECTS_FIELD_OF": 4,
+      "HAS_CONTRACT_TEST": 4522,
+      "HAS_DIAGNOSTIC_PROFILE": 646,
+      "HAS_DIAGNOSTIC_UNIT": 646,
+      "PAGE_OF": 524,
+      "TRACES_TO": 646,
+      "USES_DIAGNOSTIC_TEMPLATE": 646
+    }
+  },
+  "total": {
+    "nodes": 35379,
+    "edges": 72898,
+    "node_type_counts": {
+      "AnnotationDecision": 9000,
+      "AuthoritySource": 10,
+      "CandidateInstance": 3000,
+      "CatalogCorrection": 4,
+      "ConsensusDecision": 3000,
+      "DiagnosticContractTest": 4522,
+      "DiagnosticProfile": 646,
+      "DiagnosticTemplate": 233,
+      "DiagnosticUnit": 646,
+      "EvidenceAssessment": 3000,
+      "EvidenceConsensus": 1000,
+      "GrammarFamily": 8,
+      "GrammarPoint": 37,
+      "GrammarRule": 144,
+      "HandbookPageAnchor": 524,
+      "RuleReliability": 468,
+      "RuntimeBinding": 646,
+      "RuntimeRule": 1,
+      "SentenceGroup": 2557,
+      "SlotAssertion": 3960,
+      "SlotConsensus": 1320,
+      "SlotType": 29,
+      "StandardCategory": 12,
+      "StandardGrammarPoint": 572,
+      "StandardLevel": 7,
+      "StandardSubcategory": 33
+    },
+    "relation_counts": {
+      "ACTIVATES_RULE": 5781,
+      "ALIGNED_TO_HANDBOOK_PAGE": 572,
+      "ANNOTATED_AS": 9000,
+      "ASSESSED_BY": 3000,
+      "BELONGS_TO_FAMILY": 37,
+      "BELONGS_TO_STANDARD_CATEGORY": 572,
+      "BELONGS_TO_STANDARD_SUBCATEGORY": 572,
+      "CANDIDATE_OF": 3000,
+      "CITES": 772,
+      "COMPILES_TO": 646,
+      "CONTRIBUTES_TO": 15960,
+      "CORRECTS_FIELD_OF": 4,
+      "DEFINED_BY": 572,
+      "DERIVED_FROM": 3000,
+      "GOVERNED_BY": 144,
+      "HAS_CONSENSUS": 3000,
+      "HAS_CONTRACT_TEST": 4522,
+      "HAS_DIAGNOSTIC_PROFILE": 646,
+      "HAS_DIAGNOSTIC_UNIT": 646,
+      "HAS_EVIDENCE_CONSENSUS": 1000,
+      "HAS_SLOT_ASSERTION": 3960,
+      "HAS_SLOT_CONSENSUS": 1320,
+      "HAS_TRAIN_RELIABILITY": 468,
+      "INSTANCE_OF_SLOT": 5280,
+      "IN_FAMILY": 3000,
+      "IN_STANDARD_LEVEL": 572,
+      "OCCURS_IN": 3000,
+      "PAGE_OF": 524,
+      "SUBCATEGORY_OF": 36,
+      "TRACES_TO": 646,
+      "USES_DIAGNOSTIC_TEMPLATE": 646
+    }
+  },
+  "validation": {
+    "contract_test_execution_statuses": {
+      "binding_contract_passed": 4522
+    },
+    "contract_test_expected_labels": {
+      "不确定/需复核": 646,
+      "其他具体构式": 646,
+      "目标用例": 646,
+      "结构缺槽": 646,
+      "表层触发但非目标": 646,
+      "语义不兼容": 646,
+      "边界问题": 646
+    },
+    "handbook_alignment_confidence": {
+      "high": 569,
+      "medium": 3
+    },
+    "duplicate_node_ids": 0,
+    "duplicate_edges": 0,
+    "dangling_edges": 0,
+    "v2_node_ids_preserved": 28158,
+    "v2_edges_preserved": 64046,
+    "integrity_pass": true
+  },
+  "claim_boundary": "Full inventory coverage denotes source-anchored machine compilation and static/contract validation. It does not convert the frozen 37-label candidate evaluation into a 572-point behavioral benchmark, nor does it imply linguist adjudication of every generated profile.",
+  "input_sha256": {
+    "nodes.csv": "2a1a783598861dd290535006b2c1bb2be770c29f82d890b302b172bfa9337c09",
+    "edges.csv": "bd94c4e8b9eb681cca45451d3c14b8c41fa1594302cb80c69f758bd1915446b9",
+    "standard_diagnostic_crosswalk_v3.csv": "2334751e4f266d80e342afb738e72ca245727f5b0cbf6fbcc44e403d5c5cea54",
+    "diagnostic_templates_v3.csv": "99fe050162db310783636c4a91d4ed4d5f4a8afe1bb71695b828850027b728c4",
+    "diagnostic_unit_tests_v3.csv": "b70984fd945372d2b4d7a29fcd5a61e8e0c12d6cd9d977306fdcc19de71eccae",
+    "standard_handbook_alignment_v3.csv": "9b3e95295d5c4c49e18c6cc9411efc1a4162154dc53061a2c65854f930babbf7",
+    "standard_catalog_corrections_v3.csv": "fa963d0a88c78a0061de59c525711d4477a86492e83c7f222bb44e9ade6e3525"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "version": "v3.0",
+  "scope": "complete_GF0025_2021_appendix_A_inventory",
+  "claim_boundary": {
+    "authority_inventory": "572 official numbered grammar points",
+    "runtime_artifacts": "machine-compiled, source-anchored, static-audited bindings",
+    "runtime_binding_human_or_linguist_review": "not claimed",
+    "catalog_metadata_correction_verification": "reported separately from runtime-binding review status",
+    "experimental_evaluation": "not claimed for the v3 inventory-wide bindings",
+    "generated_tests": "deterministic binding contract tests; not behavioral or semantic validation"
+  },
+  "counts": {
+    "official_standard_points": 572,
+    "points_split_into_multiple_units": 50,
+    "split_points_with_preserved_preamble_scope": 33,
+    "diagnostic_units": 646,
+    "diagnostic_profiles": 646,
+    "runtime_bindings": 646,
+    "operational_templates": 233,
+    "source_seed_labels": 37,
+    "catalog_corrections_applied": 4,
+    "catalog_points_corrected": 2,
+    "legacy_regex_present": 474,
+    "legacy_regex_absent": 98,
+    "normalized_legacy_regexes_compiling": 474,
+    "generated_contract_tests": 4522,
+    "generated_contract_tests_passed": 4522,
+    "candidate_detector_contract_invocations": 4522,
+    "positive_contracts_matching_active_candidate_detector": 646,
+    "runtime_bindings_using_normalized_legacy_candidate_regex": 503,
+    "split_runtime_bindings_with_unit_specialized_candidate_detector": 39,
+    "runtime_bindings_using_source_literal_candidate_pattern": 143,
+    "official_taxonomy_paths": 103,
+    "taxonomy_paths_covered": 103
+  },
+  "mapping_disposition": {
+    "point_specific_instantiated": 101,
+    "seed_reused": 93,
+    "taxonomy_instantiated": 452
+  },
+  "regime": {
+    "complex_functional": 135,
+    "structural_pattern": 511
+  },
+  "unit_split_kind": {
+    "nested_numbered_usage": 2,
+    "numbered_usage": 122,
+    "unsplit_official_entry": 522
+  },
+  "regex_normalization": {
+    "normalized_compiles": 474
+  },
+  "seed_label_reuse": {
+    "一样比较候选": 2,
+    "一边...一边候选": 1,
+    "不但...而且候选": 1,
+    "不如比较候选": 1,
+    "之所以...是因为候选": 1,
+    "从字介词框架候选": 2,
+    "但是候选": 3,
+    "兼语结构候选": 5,
+    "即使候选": 1,
+    "双宾/给予结构候选": 2,
+    "只要候选": 1,
+    "可能补语候选": 2,
+    "向/往/朝介词框架候选": 4,
+    "因为...所以候选": 1,
+    "在字介词框架候选": 1,
+    "如果...就候选": 1,
+    "对字介词框架候选": 1,
+    "得字补语候选": 8,
+    "所以候选": 1,
+    "把字句候选": 13,
+    "数量/时量补语候选": 5,
+    "既然候选": 1,
+    "比字比较候选": 8,
+    "没有比较候选": 1,
+    "结果补语候选": 2,
+    "给/为/关于等介词框架候选": 5,
+    "虽然...但是候选": 1,
+    "被字句候选": 5,
+    "越...越候选": 1,
+    "趋向补语候选": 7,
+    "连动结构候选": 5
+  },
+  "test_case_counts": {
+    "boundary": 646,
+    "confusable": 646,
+    "missing_slot": 646,
+    "other_construction": 646,
+    "positive": 646,
+    "semantic_incompatible": 646,
+    "uncertain": 646
+  },
+  "diagnosis_type_labels": [
+    "目标用例",
+    "边界问题",
+    "表层触发但非目标",
+    "结构缺槽",
+    "语义不兼容",
+    "其他具体构式",
+    "不确定/需复核"
+  ],
+  "structured_output_fields": [
+    "target_status",
+    "candidate_boundary",
+    "slot_status",
+    "structural_functional_status",
+    "licensed_evidence",
+    "runtime_evidence",
+    "rule_source_trace"
+  ],
+  "catalog_correction_provenance": {
+    "GF0025-2021-5-010": [
+      {
+        "standard_point_id": "GF0025-2021-5-010",
+        "field_name": "section_item",
+        "original_value": "引出目的、原因",
+        "corrected_value": "引出施事、受事",
+        "authority_source_id": "REF-GF0025-2021",
+        "authority_pdf_page": "223",
+        "evidence_note": "GF0025-2021 Appendix A, PDF p.223 places 【五10】 将 under A.5.1.4.2 引出施事、受事.",
+        "verification_status": "manually_verified_against_official_page"
+      }
+    ],
+    "GF0025-2021-3-002": [
+      {
+        "standard_point_id": "GF0025-2021-3-002",
+        "field_name": "grammar_point",
+        "original_value": "#NAME?",
+        "corrected_value": "儿、家、们、头、子",
+        "authority_source_id": "REF-GF0025-2021",
+        "authority_pdf_page": "198",
+        "evidence_note": "GF0025-2021 Appendix A, PDF p.198 lists 【三02】 后缀: 儿、家、们、头、子.",
+        "verification_status": "manually_verified_against_official_page"
+      },
+      {
+        "standard_point_id": "GF0025-2021-3-002",
+        "field_name": "canonical_label",
+        "original_value": "#NAME?",
+        "corrected_value": "儿、家、们、头、子",
+        "authority_source_id": "REF-GF0025-2021",
+        "authority_pdf_page": "198",
+        "evidence_note": "GF0025-2021 Appendix A, PDF p.198 lists 【三02】 后缀: 儿、家、们、头、子.",
+        "verification_status": "manually_verified_against_official_page"
+      },
+      {
+        "standard_point_id": "GF0025-2021-3-002",
+        "field_name": "standard_text",
+        "original_value": "#NAME?",
+        "corrected_value": "儿、家、们、头、子",
+        "authority_source_id": "REF-GF0025-2021",
+        "authority_pdf_page": "198",
+        "evidence_note": "GF0025-2021 Appendix A, PDF p.198 lists 【三02】 后缀: 儿、家、们、头、子.",
+        "verification_status": "manually_verified_against_official_page"
+      }
+    ]
+  },
+  "integrity_audit": {
+    "official_point_count_is_572": true,
+    "official_point_ids_unique": true,
+    "all_official_points_have_units": true,
+    "diagnostic_unit_ids_unique": true,
+    "one_profile_per_unit": true,
+    "one_binding_per_unit": true,
+    "seven_contract_tests_per_unit": true,
+    "all_seven_diagnosis_branches_contract_tested_per_unit": true,
+    "all_generated_contract_tests_pass": true,
+    "all_runtime_patterns_compile": true,
+    "all_active_candidate_patterns_compile": true,
+    "all_trigger_patterns_nonempty_and_match_a_source_literal": true,
+    "no_regex_range_artifact_literals_in_triggers": true,
+    "all_474_legacy_regexes_normalized_and_compile": true,
+    "all_taxonomy_paths_represented": true,
+    "crosswalk_template_regime_consistent": true,
+    "split_preamble_scope_preserved": true,
+    "seven_diagnosis_labels_preserved": true,
+    "seed_reuse_passes_conservative_compatibility_guard": true,
+    "source_trace_complete": true,
+    "catalog_corrections_applied_with_authority_provenance": true,
+    "no_excel_error_tokens_in_effective_catalog": true,
+    "no_human_or_linguist_review_claim": true,
+    "all_bindings_machine_static_audit_passed": true,
+    "all_test_rows_record_binding_contract_execution": true,
+    "all_positive_contracts_match_active_candidate_detector": true,
+    "candidate_detector_negative_gate_blocks_target": true,
+    "normalized_legacy_candidate_regex_is_on_active_execution_path": true,
+    "split_lexical_units_possible_and_keyi_are_detector_distinct": true,
+    "utf8_values_round_trip": true
+  },
+  "artifacts": {
+    "crosswalk": "standard_diagnostic_crosswalk_v3.csv",
+    "templates": "diagnostic_templates_v3.csv",
+    "bindings": "executable_bindings_full_inventory_v3.json",
+    "tests": "diagnostic_unit_tests_v3.csv",
+    "coverage": "full_inventory_executable_coverage_v3.json"
+  }
+}

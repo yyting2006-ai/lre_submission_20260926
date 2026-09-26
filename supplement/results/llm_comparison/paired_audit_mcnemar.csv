@@ -1,0 +1,4 @@
+﻿metric,direct_only,rule_shaped_only,discordant,exact_mcnemar_p
+label_stability,11,5,16,0.210113525390625
+cue_exact_stability,36,16,52,0.0077874363057435225
+reason_exact_stability,2,1,3,1.0
