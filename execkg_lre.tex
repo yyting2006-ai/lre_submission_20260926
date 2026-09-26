@@ -20,8 +20,15 @@
 \renewcommand{\floatpagefraction}{.78}
 \setcounter{topnumber}{2}
 \setcounter{totalnumber}{4}
-\usepackage{xeCJK}
-\setCJKmainfont{Microsoft YaHei}
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{xeCJK}
+  \IfFontExistsTF{Microsoft YaHei}{\setCJKmainfont{Microsoft YaHei}}{\setCJKmainfont{Noto Serif CJK SC}}
+\else
+  \usepackage{CJKutf8}
+  \AtBeginDocument{\begin{CJK}{UTF8}{gbsn}}
+  \AtEndDocument{\end{CJK}}
+\fi
 \graphicspath{{./}}
 
 \begin{document}
