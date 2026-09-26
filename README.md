@@ -2,6 +2,8 @@
 
 This directory is the prepared submission state for *Language Resources and Evaluation*.
 
+The public release repository is [yyting2006-ai/lre_submission_20260926](https://github.com/yyting2006-ai/lre_submission_20260926).
+
 ## Files
 
 - `execkg_lre.pdf`: compiled manuscript.

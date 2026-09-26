@@ -26,5 +26,5 @@ Target venue: *Language Resources and Evaluation*, full-length paper.
 ## Material unresolved constraints
 
 - Standard text, handbook prose, and benchmark sentences remain restricted by source licenses and are not redistributed.
-- The public-facing repository URL is not present in this local package; the review package is prepared as a supplementary upload.
+- The public-facing repository is `https://github.com/yyting2006-ai/lre_submission_20260926`; the same release is also prepared as a supplementary upload.
 - The behavioral evaluation remains an offline benchmark, and the pooled test splits share some sentence groups across seeds.
